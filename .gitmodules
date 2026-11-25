@@ -1,0 +1,3 @@
+[submodule "vendor/sample-library"]
+	path = vendor/sample-library
+	url = https://github.com/DBB-Software/code-check-sample-library.git

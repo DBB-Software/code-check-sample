@@ -1,0 +1,10 @@
+name: ci
+# Started by hand only, so a push to this sample runs nothing.
+on: workflow_dispatch
+permissions: write-all
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm test
